@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edición de Video - Servicios</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #00ffe7;
+      text-shadow: 0 0 5px #00ffe7;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 231, 0.1);
+    }
+    a {
+      color: #00ffe7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-radius: 10px;
+    }
+    .video-embed {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .tiktok-embed {
+      width: 100%;
+      min-height: 500px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Estilo responsivo */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+      iframe {
+        height: 200px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      iframe {
+        height: 180px;
+      }
+    }
+  </style>
+  <script async src="https://www.tiktok.com/embed.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Edición de Video - Servicios</h1>
+    <p class="mb-6">¿Querés que tus videos se vean <strong style="color:#ff00c8">PRO</strong>? ¡Yo te los edito!</p>
+
+    <div class="card">
+      <h2>Servicios y Precios</h2>
+      <ul>
+        <li><strong>Videos cortos (menos de 1 minuto):</strong> $1800</li>
+        <li><strong>Videos largos (hasta 15 minutos):</strong> $10.000</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>¿Cómo trabajo?</h2>
+      <ol>
+        <li>Me enviás el material</li>
+        <li>Te paso una vista previa</li>
+        <li>Ajustamos lo necesario</li>
+        <li>Entrega final lista para publicar</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Medios de Pago</h2>
+      <ul>
+        <li>Transferencia bancaria (Argentina)</li>
+        <li>Mercado Pago</li>
+        <li>PIX (Brasil)</li>
+        <li>USDT (Criptomonedas)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contacto</h2>
+      <p>WhatsApp: <a href="https://wa.me/543884843354">+54 388 484-3354</a></p>
+    </div>
+
+    <div class="card">
+      <h2>Ejemplos de mi trabajo</h2>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/77YlhwPWO6o" title="Ejemplo YouTube" allowfullscreen></iframe>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/7bxhXCtnee4" title="Ejemplo YouTube" allowfullscreen></iframe>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/Xa2PEqBdfus" title="Ejemplo YouTube" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
